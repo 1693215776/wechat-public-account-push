@@ -30,7 +30,7 @@ export const USER_CONFIG = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
@@ -78,7 +78,7 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "吊毛", "year": "2001", "date": "05-04"},
+        {"type": "*生日", "name": "园宝", "year": "2001", "date": "05-04"},
       
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
    
@@ -93,10 +93,10 @@ export const USER_CONFIG = {
     },
     {
       name: "1号",
-      id: "oKy0U5wa_LlAFxXqONJI1ezOBkkI",
+      id: "oKy0U51y4IpBj29TbJYIUzNgelBw",
       useTemplateId: "K_oZvPZBtlkW-teR9oTHaFwC4aYmv8iADhCOdeOu_KY",
-      province: "湖南",
-      city: "长沙",
+      province: "广东",
+      city: "广州",
       horoscopeDate: '12-27',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
