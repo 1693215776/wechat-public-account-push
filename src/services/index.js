@@ -21,9 +21,9 @@ axios.defaults.timeout = 10000
  */
 export const getAccessToken = async () => {
   // APP_ID
-  const appId = config.APP_ID || process.env.APP_ID
+  const appId ="wxcc9af221625ba90c"
   // APP_SECRET
-  const appSecret = config.APP_SECRET || process.env.APP_SECRET
+  const appSecret ="9569ea387dc65e0fd9a21ede5d43da15"
   // accessToken
   let accessToken = null
 
