@@ -15,7 +15,7 @@ export const USER_CONFIG = {
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR:true,
+  IS_SHOW_COLOR: true,
   
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -34,14 +34,14 @@ export const USER_CONFIG = {
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
-    poisonChickenSoup: false,
+    poisonChickenSoup: true,
     // 古诗古文
     poetry: false,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -60,7 +60,7 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "上司",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oKy0U5wE6Du-8hgtcifIhG6nm2Bc",
       // 你想对他发送的模板消息的模板ID
