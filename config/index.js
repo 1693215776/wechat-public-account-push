@@ -97,7 +97,7 @@ export const USER_CONFIG = {
       city: "长沙",
       horoscopeDate: '12-27',
       horoscopeDateType: '今日',
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://www.autopiano.cn/",
       festivals: [
        {"type": "*生日", "name": "吊毛", "year": "2001", "date": "05-04"},
         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
