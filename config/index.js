@@ -15,7 +15,7 @@ export const USER_CONFIG = {
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR:true,
   
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -109,31 +109,7 @@ export const USER_CONFIG = {
         {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       customizedDateList: []
-    },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
+    },     
     // 你可以不断按格式往下增加
     // ...
   ],
